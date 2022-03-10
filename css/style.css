@@ -84,6 +84,15 @@ nav ul {
   font-size: 17px;
 }
 
+.line {
+  background-color: black;
+  width: 0;
+  height: 3px;
+  position: absolute;
+  background-color: #f164be;
+  transition: width 1s ease-in-out;
+}
+
 @media screen and (max-width: 950px) {
   .gameContainer {
     flex-wrap: wrap;
